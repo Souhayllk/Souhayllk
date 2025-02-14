@@ -14,7 +14,7 @@ Je suis **Souhayl El Hammadi**, un **développeur web full-stack**, passionné p
 > Développement d’une application web où une **intelligence artificielle** génère des questions d’entretien basées sur le CV du candidat, analyse ses réponses en temps réel, puis fournit un **résumé et une note** de performance.  
 
 ## 🔧 Compétences  
-- **Front-end :** HTML, CSS, JavaScript, React, Next.js, Tailwind CSS  
+- **Front-end :** HTML, CSS, JavaScript, React,Tailwind CSS  
 - **Back-end :** PHP (Laravel), Python (Flask)  
 - **Bases de données :** MySQL, MongoDB  
 - **Conception & Modélisation :** UML, Merise  
