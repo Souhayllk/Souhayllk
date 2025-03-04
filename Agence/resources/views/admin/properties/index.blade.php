@@ -26,7 +26,7 @@
             <td>{{$property->city}}</td>
             <td class="d-flex gap-2 w-100 justify-content-end">
                 <a href="{{ route('admin.property.edit', $property) }}" class="btn btn-primary">Éditer</a>
-                <form action="{{ route('admin.property.destroy', $property) }}">
+                <form action="{{ route('admin.property.destroy', $property) }}" method="post">
                     @csrf
                     @method('DELETE')
                     <button class="btn btn-danger">Supprimer</button>

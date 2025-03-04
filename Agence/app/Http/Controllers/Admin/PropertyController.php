@@ -29,17 +29,6 @@ class PropertyController extends Controller
     public function create()
     {
         $property = new Property();
-        $property->fill([
-            'surface'=>40,
-            'rooms'=>3,
-            'badrooms'=>1,
-            'floor'=>1,
-            'city'=>'montpellier',
-            'postal_code'=>'34000',
-            
-            'sold'=>false
-            
-        ]);
         return view('admin.properties.form',[
             'property'=>$property
         ]);
@@ -88,8 +77,7 @@ class PropertyController extends Controller
     public function update(PropertyFormRequest $request, Property $property)
     {
         $property->update($request->validated());
-        return redirect()->route('admin.property.index')->with('success','Le bien a ete modifier');
-        
+        return redirect()->route('admin.property.index')->with('success','Le bien a ete modifier'); 
     }
 
     /**
